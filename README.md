@@ -2,17 +2,17 @@
 
 ## Project: Titanic Survival Prediction
 
-This repository contains work for the CodSoft Data Science Internship — Task 1.  
+This repository contains work for the CodSoft Data Science Internship — Task 1.
 Goal: build a model that predicts whether a passenger on the Titanic survived using the classic Titanic dataset.
 
 ### Files of interest
 
-- Task 1.ipynb — Jupyter notebook with the full data exploration, preprocessing, model training (Logistic Regression), evaluation, and visualizations for the Titanic Survival Prediction task. Notebook (permalink): https://github.com/armanrx02/CODSOFT/blob/69d3edc32be2d3fdfb6da7ebfe7a6050792a59ff/Task%201.ipynb  
+- Task 1.ipynb — Jupyter notebook with the full data exploration, preprocessing, model training (Logistic Regression), evaluation, and visualizations for the Titanic Survival Prediction task. Notebook permalink (commit): https://github.com/armanrx02/CODSOFT/blob/652afd2e4f4cba683f275c08140248c0fcd1d9f0/Task%201.ipynb
 - Titanic-Dataset.csv — dataset used by the notebook (should be placed in the repository root or the path expected by the notebook).
 
 ### Summary
 
-- Model used: Logistic Regression (max_iter=1000)  
+- Model used: Logistic Regression (max_iter=1000)
 - Key preprocessing:
   - Fill missing Age with median
   - Fill missing Embarked with mode
@@ -51,7 +51,7 @@ Goal: build a model that predicts whether a passenger on the Titanic survived us
   - Try other models (RandomForest, XGBoost)
   - Hyperparameter tuning & cross-validation
   - Build a reproducible training script (train.py) and add requirements.txt
-- Add unit tests or a small CLI to run training & evaluation outside the notebook.
+- Add unit tests or a small CLI to run training & evaluation outside the notebook for reproducibility.
 
 ### Contact
 
